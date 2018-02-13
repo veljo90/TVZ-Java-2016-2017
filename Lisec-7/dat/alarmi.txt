@@ -1,0 +1,18 @@
+38665432123
+Periæ
+Pero
+098777666
+peric.pero@java.com
+01.05.1996
+Povratna informacija za obavljenu uslugu: fwes
+01.12.2016. 17:17:37
+false
+76545678909
+Iviæ
+Ivo
++38691654321
+ivic.ivo@eclipse.com
+12.05.1991
+Povratna informacija za obavljenu uslugu: Usluga 2
+04.12.2016. 14:23:10
+true
