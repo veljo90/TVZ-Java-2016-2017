@@ -1,0 +1,436 @@
+01:43:56.011 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani klijenti
+01:43:56.016 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani zaposlenici
+01:43:56.019 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitana tvrtka
+01:43:56.019 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni zaposlenici tvrtke
+01:43:56.019 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni klijenti tvrtke
+01:43:59.792 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Unos 1. usluge
+01:44:00.705 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos usluge
+01:44:01.425 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrana vrsta usluge: PRAVNA
+01:44:02.865 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabran opis usluge: gredc
+01:44:04.718 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrana cijena usluge: 50
+01:44:08.008 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Kreiran alarm za uslugu
+01:44:08.008 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Unos 2. usluge
+01:44:10.313 [main] ERROR hr.java.vjezbe.glavna.GlavnaDatoteke - Unesen je neispravan broj klijenta: 3
+01:44:12.177 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos usluge
+01:44:13.737 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrana vrsta usluge: PRAVNA
+01:44:15.681 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabran opis usluge: kzuhtr
+01:44:17.731 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrana cijena usluge: 20
+01:44:21.476 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Kreiran alarm za uslugu
+01:44:21.479 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni alarmi za cijelu tvrtku
+01:44:21.479 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljene usluge za cijelu tvrtku
+01:44:21.479 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Ukupna cijena svih prodanih proizvoda: 700 kn
+01:44:21.482 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: gredc
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:183)
+01:44:23.118 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik želi obaviti komunikaciju sa klijentom
+01:44:24.058 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabran zaposlenik: Mirko Banoci
+01:44:24.853 [main] INFO  hr.java.vjezbe.glavna.Glavna - Obavljena komunikacija sa klijentom
+01:44:24.853 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: kzuhtr
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:183)
+01:44:26.539 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik želi obaviti komunikaciju sa klijentom
+01:44:27.439 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabran zaposlenik: Vlatko Lonèar
+01:44:28.062 [main] INFO  hr.java.vjezbe.glavna.Glavna - Obavljena komunikacija sa klijentom
+01:44:38.063 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: gredc
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:183)
+01:44:41.216 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik želi obaviti komunikaciju sa klijentom
+01:44:42.566 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabran zaposlenik: Mirko Banoci
+01:44:43.175 [main] INFO  hr.java.vjezbe.glavna.Glavna - Obavljena komunikacija sa klijentom
+01:44:43.175 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: kzuhtr
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:183)
+01:44:44.415 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik želi obaviti komunikaciju sa klijentom
+01:44:44.988 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabran zaposlenik: Veljko Staniæ
+01:44:45.645 [main] INFO  hr.java.vjezbe.glavna.Glavna - Obavljena komunikacija sa klijentom
+01:44:55.646 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: gredc
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:183)
+01:44:57.923 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik želi obaviti komunikaciju sa klijentom
+01:44:59.163 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabran zaposlenik: Vlatko Lonèar
+01:44:59.685 [main] INFO  hr.java.vjezbe.glavna.Glavna - Obavljena komunikacija sa klijentom
+01:44:59.685 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: kzuhtr
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:183)
+01:45:02.276 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik želi obaviti komunikaciju sa klijentom
+01:45:03.821 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabran zaposlenik: Veljko Staniæ
+01:45:06.817 [main] INFO  hr.java.vjezbe.glavna.Glavna - Obavljena komunikacija sa klijentom
+01:45:16.818 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm je istekao
+hr.java.vjezbe.iznimke.AlarmIstekaoException: Sljedeæi alarm je istekao: Povratna informacija za obavljenu uslugu: gredc
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:386)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:183)
+01:45:16.818 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: kzuhtr
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:183)
+01:45:18.541 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik želi obaviti komunikaciju sa klijentom
+01:45:19.921 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabran zaposlenik: Vlatko Lonèar
+01:45:20.801 [main] INFO  hr.java.vjezbe.glavna.Glavna - Obavljena komunikacija sa klijentom
+01:45:30.801 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm je istekao
+hr.java.vjezbe.iznimke.AlarmIstekaoException: Sljedeæi alarm je istekao: Povratna informacija za obavljenu uslugu: kzuhtr
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:386)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:183)
+17:03:56.401 [main] ERROR hr.java.vjezbe.glavna.GlavnaDatoteke - Došlo je do greške u radu s datotekom!
+java.io.FileNotFoundException: dat\slovenci.dat (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:60)
+17:03:56.457 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani klijenti
+17:03:56.468 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani zaposlenici
+17:03:56.480 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitana tvrtka
+17:03:56.480 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni zaposlenici tvrtke
+17:03:56.480 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni klijenti tvrtke
+17:08:22.547 [main] ERROR hr.java.vjezbe.glavna.GlavnaDatoteke - Došlo je do greške u radu s datotekom!
+java.io.EOFException: null
+	at java.io.ObjectInputStream$BlockDataInputStream.peekByte(Unknown Source)
+	at java.io.ObjectInputStream.readObject0(Unknown Source)
+	at java.io.ObjectInputStream.readObject(Unknown Source)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:64)
+17:08:22.589 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani klijenti
+17:08:22.591 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani zaposlenici
+17:08:22.594 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitana tvrtka
+17:08:22.594 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni zaposlenici tvrtke
+17:08:22.594 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni klijenti tvrtke
+17:08:26.931 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Unos 1. usluge
+17:08:28.073 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos usluge
+17:08:28.764 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrana vrsta usluge: PRODAJNA
+17:08:30.163 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabran opis usluge: gerdcds
+17:08:31.572 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrana cijena usluge: 10
+17:08:34.971 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Kreiran alarm za uslugu
+17:08:34.974 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni alarmi za cijelu tvrtku
+17:08:34.974 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljene usluge za cijelu tvrtku
+17:08:34.974 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Ukupna cijena svih prodanih proizvoda: 500 kn
+17:08:34.975 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: gerdcds
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:221)
+17:08:36.776 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik želi obaviti komunikaciju sa klijentom
+17:08:38.035 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabran zaposlenik: Veljko Staniæ
+17:08:38.777 [main] INFO  hr.java.vjezbe.glavna.Glavna - Obavljena komunikacija sa klijentom
+17:08:48.778 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: gerdcds
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:221)
+17:08:51.181 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik želi obaviti komunikaciju sa klijentom
+17:08:52.374 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabran zaposlenik: Veljko Staniæ
+17:09:21.425 [main] INFO  hr.java.vjezbe.glavna.Glavna - Obavljena komunikacija sa klijentom
+17:09:31.426 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: gerdcds
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:221)
+17:09:33.186 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik želi obaviti komunikaciju sa klijentom
+17:09:34.107 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabran zaposlenik: Mirko Banoci
+17:09:34.851 [main] INFO  hr.java.vjezbe.glavna.Glavna - Obavljena komunikacija sa klijentom
+17:09:44.852 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm je istekao
+hr.java.vjezbe.iznimke.AlarmIstekaoException: Sljedeæi alarm je istekao: Povratna informacija za obavljenu uslugu: gerdcds
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:386)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:221)
+17:09:53.302 [main] ERROR hr.java.vjezbe.glavna.GlavnaDatoteke - Došlo je do greške u radu s datotekom!
+java.io.EOFException: null
+	at java.io.ObjectInputStream$BlockDataInputStream.peekByte(Unknown Source)
+	at java.io.ObjectInputStream.readObject0(Unknown Source)
+	at java.io.ObjectInputStream.readObject(Unknown Source)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:64)
+17:09:53.343 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani klijenti
+17:09:53.345 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani zaposlenici
+17:09:53.347 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitana tvrtka
+17:09:53.348 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni zaposlenici tvrtke
+17:09:53.348 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni klijenti tvrtke
+17:14:08.711 [main] ERROR hr.java.vjezbe.glavna.GlavnaDatoteke - Došlo je do greške u radu s datotekom!
+java.io.EOFException: null
+	at java.io.ObjectInputStream$BlockDataInputStream.peekByte(Unknown Source)
+	at java.io.ObjectInputStream.readObject0(Unknown Source)
+	at java.io.ObjectInputStream.readObject(Unknown Source)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:64)
+17:14:08.752 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani klijenti
+17:14:08.754 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani zaposlenici
+17:14:08.757 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitana tvrtka
+17:14:08.757 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni zaposlenici tvrtke
+17:14:08.757 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni klijenti tvrtke
+17:14:16.266 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Unos 1. usluge
+17:14:17.500 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos usluge
+17:14:18.025 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrana vrsta usluge: PRODAJNA
+17:14:19.033 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabran opis usluge: veds
+17:14:20.169 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrana cijena usluge: 10
+17:14:22.928 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Kreiran alarm za uslugu
+17:14:22.931 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni alarmi za cijelu tvrtku
+17:14:22.931 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljene usluge za cijelu tvrtku
+17:14:22.931 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Ukupna cijena svih prodanih proizvoda: 100 kn
+17:14:22.931 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: veds
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:219)
+17:14:24.963 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik želi obaviti komunikaciju sa klijentom
+17:14:26.066 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabran zaposlenik: Veljko Staniæ
+17:14:26.821 [main] INFO  hr.java.vjezbe.glavna.Glavna - Obavljena komunikacija sa klijentom
+17:14:36.821 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: veds
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:219)
+17:14:37.888 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik ne želi obaviti komunikaciju sa klijentom
+17:14:47.888 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: veds
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:219)
+17:14:48.736 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik ne želi obaviti komunikaciju sa klijentom
+17:14:58.738 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: veds
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:219)
+17:14:59.553 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik ne želi obaviti komunikaciju sa klijentom
+17:15:09.555 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: veds
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:219)
+17:15:10.764 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik ne želi obaviti komunikaciju sa klijentom
+17:15:20.764 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: veds
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:219)
+17:15:22.391 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik ne želi obaviti komunikaciju sa klijentom
+17:15:32.391 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm je istekao
+hr.java.vjezbe.iznimke.AlarmIstekaoException: Sljedeæi alarm je istekao: Povratna informacija za obavljenu uslugu: veds
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:386)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:219)
+17:15:39.926 [main] ERROR hr.java.vjezbe.glavna.GlavnaDatoteke - Došlo je do greške u radu s datotekom!
+java.io.EOFException: null
+	at java.io.ObjectInputStream$BlockDataInputStream.peekByte(Unknown Source)
+	at java.io.ObjectInputStream.readObject0(Unknown Source)
+	at java.io.ObjectInputStream.readObject(Unknown Source)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:64)
+17:15:39.969 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani klijenti
+17:15:39.970 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani zaposlenici
+17:15:39.973 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitana tvrtka
+17:15:39.973 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni zaposlenici tvrtke
+17:15:39.973 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni klijenti tvrtke
+17:16:25.477 [main] ERROR hr.java.vjezbe.glavna.GlavnaDatoteke - Došlo je do greške u radu s datotekom!
+java.io.EOFException: null
+	at java.io.ObjectInputStream$BlockDataInputStream.peekByte(Unknown Source)
+	at java.io.ObjectInputStream.readObject0(Unknown Source)
+	at java.io.ObjectInputStream.readObject(Unknown Source)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:64)
+17:16:25.517 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani klijenti
+17:16:25.519 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani zaposlenici
+17:16:25.522 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitana tvrtka
+17:16:25.522 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni zaposlenici tvrtke
+17:16:25.522 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni klijenti tvrtke
+17:16:29.415 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Unos 1. usluge
+17:16:30.547 [main] ERROR hr.java.vjezbe.glavna.GlavnaDatoteke - Nije unesen cijeli broj
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Unknown Source)
+	at java.util.Scanner.next(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:125)
+17:16:31.945 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos usluge
+17:16:32.598 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrana vrsta usluge: PRAVNA
+17:16:33.891 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabran opis usluge: fwes
+17:16:34.880 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrana cijena usluge: 10
+17:16:37.318 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Kreiran alarm za uslugu
+17:16:37.320 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni alarmi za cijelu tvrtku
+17:16:37.320 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljene usluge za cijelu tvrtku
+17:16:37.320 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Ukupna cijena svih prodanih proizvoda: 10 kn
+17:16:37.321 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: fwes
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:219)
+17:16:39.171 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik ne želi obaviti komunikaciju sa klijentom
+17:16:49.171 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: fwes
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:219)
+17:16:51.724 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik ne želi obaviti komunikaciju sa klijentom
+17:17:01.724 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: fwes
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:219)
+17:17:04.354 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik ne želi obaviti komunikaciju sa klijentom
+17:17:14.355 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: fwes
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:219)
+17:17:16.130 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik ne želi obaviti komunikaciju sa klijentom
+17:17:26.130 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: fwes
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:383)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:219)
+17:17:27.703 [main] INFO  hr.java.vjezbe.glavna.Glavna - Korisnik ne želi obaviti komunikaciju sa klijentom
+17:17:37.704 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm je istekao
+hr.java.vjezbe.iznimke.AlarmIstekaoException: Sljedeæi alarm je istekao: Povratna informacija za obavljenu uslugu: fwes
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:386)
+	at hr.java.vjezbe.glavna.Glavna.unesiKomunikacije(Glavna.java:225)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:219)
+17:17:42.951 [main] ERROR hr.java.vjezbe.glavna.GlavnaDatoteke - Došlo je do greške u radu s datotekom!
+java.io.InvalidClassException: hr.java.vjezbe.entitet.Klijent; no valid constructor
+	at java.io.ObjectStreamClass$ExceptionInfo.newInvalidClassException(Unknown Source)
+	at java.io.ObjectStreamClass.checkDeserialize(Unknown Source)
+	at java.io.ObjectInputStream.readOrdinaryObject(Unknown Source)
+	at java.io.ObjectInputStream.readObject0(Unknown Source)
+	at java.io.ObjectInputStream.readObject(Unknown Source)
+	at java.util.ArrayList.readObject(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at java.io.ObjectStreamClass.invokeReadObject(Unknown Source)
+	at java.io.ObjectInputStream.readSerialData(Unknown Source)
+	at java.io.ObjectInputStream.readOrdinaryObject(Unknown Source)
+	at java.io.ObjectInputStream.readObject0(Unknown Source)
+	at java.io.ObjectInputStream.readObject(Unknown Source)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:64)
+17:17:42.989 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani klijenti
+17:17:42.991 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani zaposlenici
+17:17:42.994 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitana tvrtka
+17:17:42.994 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni zaposlenici tvrtke
+17:17:42.994 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni klijenti tvrtke
+17:19:30.621 [main] ERROR hr.java.vjezbe.glavna.GlavnaDatoteke - Došlo je do greške u radu s datotekom!
+java.io.InvalidClassException: hr.java.vjezbe.entitet.Klijent; no valid constructor
+	at java.io.ObjectStreamClass$ExceptionInfo.newInvalidClassException(Unknown Source)
+	at java.io.ObjectStreamClass.checkDeserialize(Unknown Source)
+	at java.io.ObjectInputStream.readOrdinaryObject(Unknown Source)
+	at java.io.ObjectInputStream.readObject0(Unknown Source)
+	at java.io.ObjectInputStream.readObject(Unknown Source)
+	at java.util.ArrayList.readObject(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at java.io.ObjectStreamClass.invokeReadObject(Unknown Source)
+	at java.io.ObjectInputStream.readSerialData(Unknown Source)
+	at java.io.ObjectInputStream.readOrdinaryObject(Unknown Source)
+	at java.io.ObjectInputStream.readObject0(Unknown Source)
+	at java.io.ObjectInputStream.readObject(Unknown Source)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:65)
+17:19:30.659 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani klijenti
+17:19:30.661 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani zaposlenici
+17:19:30.664 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitana tvrtka
+17:19:30.664 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni zaposlenici tvrtke
+17:19:30.664 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni klijenti tvrtke
+17:43:31.411 [main] ERROR hr.java.vjezbe.glavna.GlavnaDatoteke - Došlo je do pogreške u èitanju datoteke!
+java.nio.file.NoSuchFileException: dat\imena.txt
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(Unknown Source)
+	at java.nio.file.Files.newInputStream(Unknown Source)
+	at java.nio.file.Files.newBufferedReader(Unknown Source)
+	at java.nio.file.Files.lines(Unknown Source)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:62)
+17:43:31.486 [main] ERROR hr.java.vjezbe.glavna.GlavnaDatoteke - Došlo je do greške u radu s datotekom!
+java.io.InvalidClassException: hr.java.vjezbe.entitet.Klijent; no valid constructor
+	at java.io.ObjectStreamClass$ExceptionInfo.newInvalidClassException(Unknown Source)
+	at java.io.ObjectStreamClass.checkDeserialize(Unknown Source)
+	at java.io.ObjectInputStream.readOrdinaryObject(Unknown Source)
+	at java.io.ObjectInputStream.readObject0(Unknown Source)
+	at java.io.ObjectInputStream.readObject(Unknown Source)
+	at java.util.ArrayList.readObject(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at java.io.ObjectStreamClass.invokeReadObject(Unknown Source)
+	at java.io.ObjectInputStream.readSerialData(Unknown Source)
+	at java.io.ObjectInputStream.readOrdinaryObject(Unknown Source)
+	at java.io.ObjectInputStream.readObject0(Unknown Source)
+	at java.io.ObjectInputStream.readObject(Unknown Source)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:83)
+17:43:31.517 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani klijenti
+17:43:31.519 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani zaposlenici
+17:43:31.522 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitana tvrtka
+17:43:31.522 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni zaposlenici tvrtke
+17:43:31.523 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni klijenti tvrtke
+17:46:44.612 [main] ERROR hr.java.vjezbe.glavna.GlavnaDatoteke - Došlo je do pogreške u èitanju datoteke!
+java.nio.file.NoSuchFileException: dat\imena.txt
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(Unknown Source)
+	at java.nio.file.Files.newInputStream(Unknown Source)
+	at java.nio.file.Files.newBufferedReader(Unknown Source)
+	at java.nio.file.Files.lines(Unknown Source)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:62)
+17:46:44.680 [main] ERROR hr.java.vjezbe.glavna.GlavnaDatoteke - Došlo je do greške u radu s datotekom!
+java.io.InvalidClassException: hr.java.vjezbe.entitet.Klijent; no valid constructor
+	at java.io.ObjectStreamClass$ExceptionInfo.newInvalidClassException(Unknown Source)
+	at java.io.ObjectStreamClass.checkDeserialize(Unknown Source)
+	at java.io.ObjectInputStream.readOrdinaryObject(Unknown Source)
+	at java.io.ObjectInputStream.readObject0(Unknown Source)
+	at java.io.ObjectInputStream.readObject(Unknown Source)
+	at java.util.ArrayList.readObject(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at java.io.ObjectStreamClass.invokeReadObject(Unknown Source)
+	at java.io.ObjectInputStream.readSerialData(Unknown Source)
+	at java.io.ObjectInputStream.readOrdinaryObject(Unknown Source)
+	at java.io.ObjectInputStream.readObject0(Unknown Source)
+	at java.io.ObjectInputStream.readObject(Unknown Source)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:82)
+17:46:44.710 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani klijenti
+17:46:44.712 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani zaposlenici
+17:46:44.715 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitana tvrtka
+17:46:44.715 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni zaposlenici tvrtke
+17:46:44.715 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni klijenti tvrtke
+17:46:51.667 [main] ERROR hr.java.vjezbe.glavna.GlavnaDatoteke - Došlo je do greške u radu s datotekom!
+java.io.InvalidClassException: hr.java.vjezbe.entitet.Klijent; no valid constructor
+	at java.io.ObjectStreamClass$ExceptionInfo.newInvalidClassException(Unknown Source)
+	at java.io.ObjectStreamClass.checkDeserialize(Unknown Source)
+	at java.io.ObjectInputStream.readOrdinaryObject(Unknown Source)
+	at java.io.ObjectInputStream.readObject0(Unknown Source)
+	at java.io.ObjectInputStream.readObject(Unknown Source)
+	at java.util.ArrayList.readObject(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at java.io.ObjectStreamClass.invokeReadObject(Unknown Source)
+	at java.io.ObjectInputStream.readSerialData(Unknown Source)
+	at java.io.ObjectInputStream.readOrdinaryObject(Unknown Source)
+	at java.io.ObjectInputStream.readObject0(Unknown Source)
+	at java.io.ObjectInputStream.readObject(Unknown Source)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:82)
+17:46:51.689 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani klijenti
+17:46:51.691 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitani zaposlenici
+17:46:51.694 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Uèitana tvrtka
+17:46:51.694 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni zaposlenici tvrtke
+17:46:51.694 [main] INFO  hr.java.vjezbe.glavna.GlavnaDatoteke - Postavljeni klijenti tvrtke
