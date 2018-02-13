@@ -1,0 +1,134 @@
+08:22:50.335 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos podataka
+08:22:50.344 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos 1. klijenta
+08:23:01.599 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesen klijent: jugh refd
+08:23:01.600 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos 2. klijenta
+08:23:10.522 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesen klijent: jzhf esd
+08:23:10.523 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos 1. zaposlenika
+08:23:13.134 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesen zaposlenik: s d
+08:23:13.134 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos 2. zaposlenika
+08:23:15.044 [main] ERROR hr.java.vjezbe.glavna.Glavna - Upisan je dupli zaposlenik
+hr.java.vjezbe.iznimke.DupliZaposlenikException: Neispravan e-mail
+	at hr.java.vjezbe.glavna.Glavna.provjeriZaposlenika(Glavna.java:447)
+	at hr.java.vjezbe.glavna.Glavna.unesiZaposlenike(Glavna.java:422)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:45)
+08:23:15.045 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos 2. zaposlenika
+08:23:18.195 [main] ERROR hr.java.vjezbe.glavna.Glavna - Upisan je dupli zaposlenik
+hr.java.vjezbe.iznimke.DupliZaposlenikException: Neispravan e-mail
+	at hr.java.vjezbe.glavna.Glavna.provjeriZaposlenika(Glavna.java:447)
+	at hr.java.vjezbe.glavna.Glavna.unesiZaposlenike(Glavna.java:422)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:45)
+08:23:18.196 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos 2. zaposlenika
+08:23:21.489 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesen zaposlenik: s d
+08:23:21.490 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet ispis osoba
+08:23:21.490 [main] INFO  hr.java.vjezbe.glavna.Glavna - Ispisana osoba: jugh refd
+08:23:21.490 [main] INFO  hr.java.vjezbe.glavna.Glavna - Osoba je klijent
+08:23:21.490 [main] INFO  hr.java.vjezbe.glavna.Glavna - Ispisana osoba: jzhf esd
+08:23:21.490 [main] INFO  hr.java.vjezbe.glavna.Glavna - Osoba je klijent
+08:23:21.490 [main] INFO  hr.java.vjezbe.glavna.Glavna - Ispisana osoba: s d
+08:23:21.490 [main] INFO  hr.java.vjezbe.glavna.Glavna - Osoba je zaposlenik
+08:23:21.491 [main] INFO  hr.java.vjezbe.glavna.Glavna - Ispisana osoba: s d
+08:23:21.491 [main] INFO  hr.java.vjezbe.glavna.Glavna - Osoba je zaposlenik
+08:23:21.491 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos tvrtke
+08:23:30.017 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesena tvrtka: rgfs
+08:23:30.017 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos 1. artikla
+08:23:35.627 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesen artikl: sfd
+08:23:35.628 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos 2. artikla
+08:23:36.690 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesen artikl: sef
+08:23:36.690 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos 3. artikla
+08:23:37.852 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesen artikl: fes
+08:23:37.853 [main] INFO  hr.java.vjezbe.glavna.Glavna - Postavljeni klijenti tvrtke
+08:23:37.853 [main] INFO  hr.java.vjezbe.glavna.Glavna - Postavljeni zaposlenici tvrtke
+08:23:40.936 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unos 1. usluge
+08:23:42.266 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos usluge
+08:23:43.276 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrana vrsta usluge: thf
+08:23:43.879 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabran opis usluge: sef
+08:23:45.173 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrana cijena usluge: 15
+08:23:47.767 [main] INFO  hr.java.vjezbe.glavna.Glavna - Kreiran alarm za uslugu
+08:23:47.767 [main] INFO  hr.java.vjezbe.glavna.Glavna - Postavljeni alarmi za cijelu tvrtku
+08:23:47.768 [main] INFO  hr.java.vjezbe.glavna.Glavna - Ukupna cijena svih prodanih proizvoda: 75 kn
+08:23:47.768 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: sef
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:225)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:192)
+08:23:57.768 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: sef
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:225)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:192)
+08:24:07.769 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: sef
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:225)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:192)
+08:24:17.771 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: sef
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:225)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:192)
+08:24:27.772 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: sef
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:225)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:192)
+08:24:37.774 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: sef
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:225)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:192)
+08:24:47.775 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm je istekao
+hr.java.vjezbe.iznimke.AlarmIstekaoException: Sljedeæi alarm je istekao: Povratna informacija za obavljenu uslugu: sef
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:228)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:192)
+08:30:07.682 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos podataka
+08:30:07.690 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos 1. klijenta
+08:30:17.660 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesen klijent: jzg fs
+08:30:17.660 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos 2. klijenta
+08:30:25.057 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesen klijent: esd fh
+08:30:25.058 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos 1. zaposlenika
+08:30:29.626 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesen zaposlenik: s d
+08:30:29.627 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos 2. zaposlenika
+08:30:32.108 [main] ERROR hr.java.vjezbe.glavna.Glavna - Upisan je dupli zaposlenik
+hr.java.vjezbe.iznimke.DupliZaposlenikException: Neispravan e-mail
+	at hr.java.vjezbe.glavna.Glavna.provjeriZaposlenika(Glavna.java:447)
+	at hr.java.vjezbe.glavna.Glavna.unesiZaposlenike(Glavna.java:422)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:45)
+08:30:32.108 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos 2. zaposlenika
+08:30:34.506 [main] ERROR hr.java.vjezbe.glavna.Glavna - Upisan je dupli zaposlenik
+hr.java.vjezbe.iznimke.DupliZaposlenikException: Neispravan e-mail
+	at hr.java.vjezbe.glavna.Glavna.provjeriZaposlenika(Glavna.java:447)
+	at hr.java.vjezbe.glavna.Glavna.unesiZaposlenike(Glavna.java:422)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:45)
+08:30:34.507 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos 2. zaposlenika
+08:30:37.188 [main] ERROR hr.java.vjezbe.glavna.Glavna - Upisan je dupli zaposlenik
+hr.java.vjezbe.iznimke.DupliZaposlenikException: Neispravan e-mail
+	at hr.java.vjezbe.glavna.Glavna.provjeriZaposlenika(Glavna.java:447)
+	at hr.java.vjezbe.glavna.Glavna.unesiZaposlenike(Glavna.java:422)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:45)
+08:30:37.188 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos 2. zaposlenika
+08:30:39.764 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesen zaposlenik: z t
+08:30:39.766 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet ispis osoba
+08:30:39.766 [main] INFO  hr.java.vjezbe.glavna.Glavna - Ispisana osoba: esd fh
+08:30:39.766 [main] INFO  hr.java.vjezbe.glavna.Glavna - Osoba je klijent
+08:30:39.766 [main] INFO  hr.java.vjezbe.glavna.Glavna - Ispisana osoba: jzg fs
+08:30:39.766 [main] INFO  hr.java.vjezbe.glavna.Glavna - Osoba je klijent
+08:30:39.766 [main] INFO  hr.java.vjezbe.glavna.Glavna - Ispisana osoba: s d
+08:30:39.766 [main] INFO  hr.java.vjezbe.glavna.Glavna - Osoba je zaposlenik
+08:30:39.767 [main] INFO  hr.java.vjezbe.glavna.Glavna - Ispisana osoba: z t
+08:30:39.767 [main] INFO  hr.java.vjezbe.glavna.Glavna - Osoba je zaposlenik
+08:30:39.767 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos tvrtke
+08:30:45.678 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesena tvrtka: htf
+08:30:45.678 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos 1. artikla
+08:30:47.842 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesen artikl: ujzhg
+08:30:47.843 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos 2. artikla
+08:30:49.030 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesen artikl: jzg
+08:30:49.030 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos 3. artikla
+08:30:51.060 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesen artikl: ukhjmgrd
+08:30:51.061 [main] INFO  hr.java.vjezbe.glavna.Glavna - Postavljeni klijenti tvrtke
+08:30:51.061 [main] INFO  hr.java.vjezbe.glavna.Glavna - Postavljeni zaposlenici tvrtke
+08:30:53.129 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unos 1. usluge
+08:30:54.532 [main] INFO  hr.java.vjezbe.glavna.Glavna - Zapoèet unos usluge
+08:30:55.693 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrana vrsta usluge: tjhfg
+08:30:56.197 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabran opis usluge: esfd
+08:30:57.278 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrana cijena usluge: 1
+08:30:59.742 [main] INFO  hr.java.vjezbe.glavna.Glavna - Kreiran alarm za uslugu
+08:30:59.742 [main] INFO  hr.java.vjezbe.glavna.Glavna - Postavljeni alarmi za cijelu tvrtku
+08:30:59.742 [main] INFO  hr.java.vjezbe.glavna.Glavna - Ukupna cijena svih prodanih proizvoda: 1 kn
+08:30:59.743 [main] ERROR hr.java.vjezbe.glavna.Glavna - Alarm pred istekom
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Za manje od 1 minute æe biti vrijeme alarma Povratna informacija za obavljenu uslugu: esfd
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:225)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:192)
